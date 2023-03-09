@@ -1,0 +1,51 @@
+@import url('https://fonts.google.com/specimen/Roboto?preview.size=64&preview.layout=row');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.nav-link{
+    color: #000;
+}
+.nav-link:hover{
+    color: #F8B400;
+}
+.food{
+    display: flex;
+    
+}
+.menu{
+    padding-bottom: 3px;
+    padding-inline-end: 5px;
+}
+
+.bg {
+    background-color: #F8B400;
+    min-height: 60vh;
+    align-items: center;
+}
+
+.navbar {
+    margin-top: 0px;
+    margin-bottom: -47px;
+}
+.food{
+    width: auto;
+    max-height: 400px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-11px, 0);
+    }
+    50%{
+        transform: translate(0, -11px);  
+    }
+    100%{
+        transform: translate(-11px, 0);
+    }
+}
